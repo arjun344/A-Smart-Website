@@ -1,0 +1,100 @@
+body
+{
+    background: #efeded;
+}
+
+.wrimagecard{
+    padding: 0 !important;	
+	margin-top: 0px;
+    margin-bottom: 0.8rem;
+    text-align: left;
+    position: relative;
+    background: #fff;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    max-width: 200px;
+
+
+}
+
+.inputview{
+    padding: 0 !important;  
+    margin-top: 0px;
+    margin-bottom: 0.8rem;
+    text-align: left;
+    position: relative;
+    background: #fff;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    min-height:100px;
+}
+
+.predictedwords{
+    padding: 0 !important;  
+    margin-top: 0px;
+    margin-bottom: 0.8rem;
+    text-align: left;
+    position: relative;
+    background: #fff;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    
+     
+}
+
+.wrimagecard:focus, .wrimagecard-topimage:focus {
+    box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+}
+
+.wrimagecard-topimage_title {
+    padding: 0.03px 60px;
+    height: 65px;
+    padding-bottom: 0.90rem;
+    position: relative;
+}
+.wrimagecard-topimage  {
+    border-bottom: none;
+    text-decoration: none;
+    color: #525c65;
+    transition: color 0.3s ease;
+}
+
+h3
+{
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.onfocusheads{
+    padding: 0 !important;  
+    margin-top: 0px;
+    margin-bottom: 0.8rem;
+    text-align: left;
+    position: relative;
+    background: #fff;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    background-color: #8f9191;
+    color: white !important;
+
+}
+
+.onfocuskeys
+{
+    padding: 0 !important;  
+    margin-top: 0px;
+    margin-bottom: 0.8rem;
+    text-align: left;
+    position: relative;
+    background: #fff;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    background-color:#3d5b8c !important;
+    color: white !important;
+}
+

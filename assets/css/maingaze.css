@@ -1,0 +1,112 @@
+body
+{
+    background:#e3e6ea;
+}
+
+.wrimagecard{	
+	margin-top: 0;
+    margin-bottom: 0.0rem;
+    text-align: left;
+    position: relative;
+    background: #fff;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    min-height: 210px !important;
+    min-width: 300px !important;
+}
+
+.wrimagecard .fa{
+	position: relative;
+    font-size: 70px;
+}
+.wrimagecard-topimage_header{
+padding: 20px;
+}
+ .wrimagecard-topimage:hover {
+    box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+    background: #9ea0a3;
+    color: white;
+}
+
+.wrimagecard-topimage:focus {
+    box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+    background: #9ea0a3;
+    color: white;
+}
+.wrimagecard-topimage a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.wrimagecard-topimage_title {
+    padding: 20px 24px;
+    height: 80px;
+    padding-bottom: 0.75rem;
+    position: relative;
+}
+.wrimagecard-topimage a {
+    border-bottom: none;
+    text-decoration: none;
+    color: #525c65;
+    transition: color 0.3s ease;
+}
+
+ #webcam, #overlay {
+            position: absolute;
+            top: 0;
+            left: 20px;
+        }
+
+#vid {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+}
+
+#vidheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
+
+#eyes 
+{
+    position: absolute;
+    top: 180px;
+    right: 650px;
+}
+ #train 
+ {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:17pt;
+}
+
+ #blink
+ {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:17pt;
+}
+
+ #target 
+ {
+    background-color: lightgreen;
+    position: absolute;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    transition: all 0.1s ease;
+    box-shadow: 0 0 20px 10px white;
+    border: 4px solid rgba(0,0,0,0.5);
+}
+

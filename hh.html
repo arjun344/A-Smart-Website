@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<script type="text/javascript" src="artyom.window.js"></script>
+	<script type="text/javascript" src="artyom.window.min.js"></script>
+	<!-- <script type="text/javascript" src="artyom.js"></script> -->
+
+</head>
+<body>
+
+
+<button onclick="kk()">start</button>
+
+</body>
+</html>
+
+
+
+<script type="text/javascript">
+  
+
+  window.onload = function() 
+  {
+
+    console.log("loading window....")
+
+    const artyom = new Artyom();
+    artyom.initialize({
+         lang:"en-US",// More languages are documented in the library
+          continuous:true,//if you have https connection, you can activate continuous 
+          debug:true,//Show everything in the console
+         listen:true, // Start listening when this function is triggered
+         soundex:true,
+        }).then(function(){
+        artyom.say("VoiceVis has been correctly initialized");
+        
+    }).catch(function(){
+        artyom.say("An error occurred during the initialization");
+    });
+
+    var commandPlay = {
+      
+        indexes:["search for *"],
+        smart:true,
+        action:function(i,wildcard)
+        { 
+
+          artyom.say("Playing Video");
+          console.log(wildcard);
+          // document.getElementById("searchbarmov").style.display = "none";  
+          // document.getElementById("video-placeholder").style.display = "block";
+          // console.log(document.activeElement.id);
+          // var vidid = document.activeElement.id;
+          // player.loadVideoById(vidid);
+          // player.playVideo();
+            
+        }
+    };
+    artyom.addCommands(commandPlay); 
+  }
+
+
+
+  function kk()
+  {
+  	const artyom = new Artyom();
+    artyom.initialize({
+         lang:"en-US",// More languages are documented in the library
+          continuous:true,//if you have https connection, you can activate continuous 
+          debug:true,//Show everything in the console
+         listen:true, // Start listening when this function is triggered
+         soundex:true,
+        }).then(function(){
+        artyom.say("VoiceVis has been correctly initialized");
+        
+    }).catch(function(){
+        artyom.say("An error occurred during the initialization");
+    });
+  }
+</script>
